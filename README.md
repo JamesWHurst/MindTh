@@ -29,18 +29,28 @@ Usage
 The command-line syntax for version .01 is:
 
 `visutest [options]` where options may be
+
   `-runexe {path}` := Invoke the given executable file, which is expected to be, e.g. a WPF desktop application.
+  
   `-runtest {path}` := Run the test-script as denoted by the given file path.
+  
   `-runhttp {URL:port}` := Launch a browser pointed to the given URL (Uniform Resource Locator) and port-number.
                            for example: visutest -runhttp http://www.OurSite.com:5001
+                           
   `-display {monitor-number}` := Run the test or whatever on the display monitor with the coresponding number
                                (same numbering as with Windows).
-                               for example, if you have 2 monitors this can
+                               for example, if you have 2 monitors this can be '-display 0'
+                               
   `-step s`  :=  Run the test as distinct steps, stopping at each step for s seconds.
+  
   `-dump {path}` := Save the screenshots along with identifying annotations to the file denoted by path.
+  
   `-stoponerror` := Stop (exit the testing) upon encountering the first test-failure.
+  
   `-version` := Display the current visutest version.
+  
   `-help` := Display help-information for the visutest command-line usage.
+  
 
 
 
