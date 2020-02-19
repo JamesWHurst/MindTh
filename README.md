@@ -30,14 +30,14 @@ The command-line syntax for version .01 is:
 
 `visutest [options]` where options may be
 
-  `-runexe {path}` := Invoke the given executable file, which is expected to be, e.g. a WPF desktop application.
+    `-runexe {path}` := Invoke the given executable file, which is expected to be, e.g. a WPF desktop application.
   
-  `-runtest {path}` := Run the test-script as denoted by the given file path.
+    `-runtest {path}` := Run the test-script as denoted by the given file path.
   
-  `-runhttp {URL:port}` := Launch a browser pointed to the given URL (Uniform Resource Locator) and port-number.
+    `-runhttp {URL:port}` := Launch a browser pointed to the given URL (Uniform Resource Locator) and port-number.
                            for example: visutest -runhttp http://www.OurSite.com:5001
                            
-  `-display {monitor-number}` := Run the test or whatever on the display monitor with the coresponding number
+    `-display {monitor-number}` := Run the test or whatever on the display monitor with the coresponding number
                                (same numbering as with Windows).
                                for example, if you have 2 monitors this can be '-display 0'
                                
