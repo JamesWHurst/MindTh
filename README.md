@@ -41,15 +41,15 @@ The command-line syntax for version .01 is:
                                (same numbering as with Windows).
                                for example, if you have 2 monitors this can be '-display 0'
                                
-  `-step s`  :=  Run the test as distinct steps, stopping at each step for s seconds.
+    `-step s`  :=  Run the test as distinct steps, stopping at each step for s seconds.
   
-  `-dump {path}` := Save the screenshots along with identifying annotations to the file denoted by path.
+    `-dump {path}` := Save the screenshots along with identifying annotations to the file denoted by path.
   
-  `-stoponerror` := Stop (exit the testing) upon encountering the first test-failure.
+    `-stoponerror` := Stop (exit the testing) upon encountering the first test-failure.
   
-  `-version` := Display the current visutest version.
+    `-version` := Display the current visutest version.
   
-  `-help` := Display help-information for the visutest command-line usage.
+    `-help` := Display help-information for the visutest command-line usage.
   
 
 
